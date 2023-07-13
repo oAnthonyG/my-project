@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { View, Text, TextInput, Button } from "react-native";
+import {StyleSheet, View, Text, TextInput, Button } from "react-native";
 import ResultIMC from "./ResultIMC";
+
 
 export default function Form() {
 
@@ -47,7 +48,7 @@ export default function Form() {
           placeholder="EX. 60.893"
           keyboardType="numeric"
         />
-        <Button 
+        <Button styles={styles.button}
         onPress={() => validationImc()}
         title={textButton} />
       </View>
@@ -58,3 +59,10 @@ export default function Form() {
     </View>
   );
 }
+
+
+const styles = StyleSheet.create({
+  button: {
+    backgroundColor: "red"
+  }
+})
