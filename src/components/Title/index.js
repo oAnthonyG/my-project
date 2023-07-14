@@ -1,22 +1,14 @@
 import React from "react";
-import {StyleSheet, View, Text } from "react-native";
+import { View, Text } from "react-native";
+import styles from "./style";
 
-export default function Title(){
+export default function Title() {
   return (
-    <View style={styles.container}>
-      <Text style={styles.title}>
+    <View style={styles.boxTitle}>
+      <Text style={styles.textTitle}>
         Calcula IMC
       </Text>
     </View>
   )
 }
 
-const styles = StyleSheet.create({
-  container: {
-    padding: 24,
-    backgroundColor: "#eaeaea"
-  },
-  title:{
-    fontWeight: "bold"
-  }
-})

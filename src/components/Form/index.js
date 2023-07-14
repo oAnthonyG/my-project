@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {StyleSheet, View, Text, TextInput, Button } from "react-native";
+import { View, Text, TextInput, Button } from "react-native";
 import ResultIMC from "./ResultIMC";
 
 
@@ -48,9 +48,9 @@ export default function Form() {
           placeholder="EX. 60.893"
           keyboardType="numeric"
         />
-        <Button styles={styles.button}
-        onPress={() => validationImc()}
-        title={textButton} />
+        <Button
+          onPress={() => validationImc()}
+          title={textButton} />
       </View>
       <ResultIMC
         messageResultIMC={messageIMC}
@@ -60,9 +60,3 @@ export default function Form() {
   );
 }
 
-
-const styles = StyleSheet.create({
-  button: {
-    backgroundColor: "red"
-  }
-})
