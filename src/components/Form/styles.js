@@ -51,6 +51,11 @@ const styles = StyleSheet.create({
     fontWeight: "bold",
     paddingLeft: 20,
     color: "red",
+  },
+  exibitionResultImc: {
+    width: "100%",
+    height: "50%",
+    
   }
 });
 
