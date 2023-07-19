@@ -5,8 +5,10 @@ const styles = StyleSheet.create({
   FormContext: {
     width: "100%",
     height: "100%",
+    justifyContent: "space-around",
     bottom: 0,
-    marginTop: 30,
+    marginTop: 20,
+    paddingTop: 15,
     alignItems: "center",
     backgroundColor: "#FFF",
     borderTopLeftRadius: 30,

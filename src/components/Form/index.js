@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Text, TextInput, TouchableOpacity, Vibration } from "react-native";
+import { View, Text, TextInput, TouchableOpacity, Vibration, Pressable, Keyboard } from "react-native";
 import ResultIMC from "./ResultIMC";
 import styles from "./styles";
 
