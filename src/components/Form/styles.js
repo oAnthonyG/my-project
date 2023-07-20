@@ -55,7 +55,19 @@ const styles = StyleSheet.create({
   exibitionResultImc: {
     width: "100%",
     height: "50%",
-    
+  },
+  listImcs: {
+    marginTop: 20,
+  },
+  resultImcItem: {
+    fontSize: 26,
+    width: "100%",
+    height: 50,
+    color: "red",
+    paddingRight: 20,
+  },
+  textResultItemList: {
+    fontSize: 18,
   }
 });
 
